@@ -41,7 +41,7 @@ var RCTZhiHuDaily = React.createClass({
       () => {
         this.setState({splashed: true});
       },
-      2000,
+      2000
     );
   },
   RouteMapper: function(route, navigationOperations, onComponentRef) {
